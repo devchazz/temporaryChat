@@ -1,0 +1,8 @@
+This project is just a simple real time temporary chat template.
+Fell free to usa as a template for Socket.io connections using Node and Express.
+
+Run command:
+  node index
+
+Port:
+  localhost:4000

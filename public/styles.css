@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;      
+  min-height: 100vh;
+  /*Scroll smooth:*/
+  scroll-behavior: smooth;
+  background-color: black;
+}
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  font-family: sans-serif, serif;
+  letter-spacing: 1px;
+}
+main {
+  width: 96%;
+  margin: auto;
+  /*subtraindo footer e header*/
+  min-height: calc(100vh - 83px - 76px);
+}
+
+main h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1, p{
+  color: white;
+}
+
+input{
+  font-size: 1.1em;
+  margin: 4px;
+  padding: 4px;
+}
+
+#output{
+  font-size: 1.1em;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: white 2px solid;
+  border-radius: 10px;
+  height: 400px; 
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#sendButton{
+  font-size: 1.1em;
+  color: white;
+  background-color: black;
+  margin: 4px;
+  padding: 4px;
+  border: white solid 2px;
+  border-radius: 10%;
+}
